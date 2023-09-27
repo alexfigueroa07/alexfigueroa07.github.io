@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="geolocalizacion.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="places" placeholder="Ingresa una dirección">
+
+    <div id="map">
+        <script async
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3pKkj-H_bOea9hkxpuyobPiOyuWDCHeY&callback=initMap">
+            </script>
+    </div>
+
+</html>
+<style>
+    #map {
+        height: 100%;
+    }
+
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+</style>
